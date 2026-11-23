@@ -15,10 +15,10 @@ source('https://raw.githubusercontent.com/EMODnet/EMODnet-Biology-Reef-Forming-S
 taxon <- taxon %>% 
   mutate(
     filename = case_when(
-      grepl("sabellaria", Species, ignore.case = TRUE) ~ 'p:/emodnet_biology/dataproducts/benthos/habiat_suitability_2026/Output/Sabellaria_spinulosa_probability_RF.tif',
-      grepl("lanice", Species, ignore.case = TRUE) ~ 'p:/emodnet_biology/dataproducts/benthos/habiat_suitability_2026/Output/Lanice_conchilega_probability_RF.tif',
-      grepl("modiolus", Species, ignore.case = TRUE) ~ 'p:/emodnet_biology/dataproducts/benthos/reefies_emodnet/output/RF_pred_Modiolus.tif',
-      grepl("ostrea", Species, ignore.case = TRUE) ~ 'p:/emodnet_biology/dataproducts/benthos/reefies_emodnet/output/RF_pred_Ostrea.tif'
+      grepl("sabellaria", Species, ignore.case = TRUE) ~ 'Sabellaria_spinulosa_probability_RF.tif',
+      grepl("lanice", Species, ignore.case = TRUE) ~ 'Lanice_conchilega_probability_RF.tif',
+      grepl("modiolus", Species, ignore.case = TRUE) ~ 'RF_pred_Modiolus.tif',
+      grepl("ostrea", Species, ignore.case = TRUE) ~ 'RF_pred_Ostrea.tif'
     )
   )
 
@@ -163,7 +163,7 @@ dim(array)
 
 #== create netcdf file =========================================================
 
-nc <- create.nc("p:/emodnet_biology/dataproducts/benthos/habiat_suitability_2026/product/habitat_suitability_reef_forming_species_north_sea.nc") 
+nc <- create.nc("product/habitat_suitability_reef_forming_species_north_sea.nc") 
 
 #== add lon and Lat coordinates ================================================
 
