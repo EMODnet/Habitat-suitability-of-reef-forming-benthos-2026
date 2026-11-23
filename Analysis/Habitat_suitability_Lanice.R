@@ -16,10 +16,10 @@ if (length(new_packages)) install.packages(new_packages)
 invisible(lapply(packages, library, character.only = TRUE))
 
 # --- Paths ----------------------------------------------------
-output_dir       <- "c:/Users/mestdagh/OneDrive - Stichting Deltares/Documents/Projects/2026/EMODnet/Output"
-coastline_shp    <- "p:/11212288-bivalve-suitability-maps/Spatial_modelling_team/data/Predictor_Data/kustwgs.shp"
-rasters_dir      <- "c:/Users/mestdagh/OneDrive - Stichting Deltares/Documents/Projects/2026/EMODnet/Environmental data/"
-pa_path          <- "c:/Users/mestdagh/OneDrive - Stichting Deltares/Documents/Projects/2026/EMODnet/Lanice/pa_combined.shp"
+output_dir       <- "Output/"
+coastline_shp    <- "kustwgs.shp"
+rasters_dir      <- "Data/Environment/"
+pa_path          <- "pa_combined.shp"
 
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
