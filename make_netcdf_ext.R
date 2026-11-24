@@ -1,3 +1,5 @@
+# This is an updated version of https://raw.githubusercontent.com/EMODnet/EMODnet-Biology-Reef-Forming-Species-NorthSea/refs/heads/master/scripts/make_netcdf.R
+
 library(RNetCDF)
 library(readr)
 library(dplyr)
