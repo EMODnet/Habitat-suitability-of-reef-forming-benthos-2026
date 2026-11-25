@@ -16,10 +16,10 @@ if (length(new_packages)) install.packages(new_packages)
 invisible(lapply(packages, library, character.only = TRUE))
 
 # --- Paths ----------------------------------------------------
-output_dir       <- "Output/"
+output_dir       <- "product/"
 coastline_shp    <- "kustwgs.shp"
-rasters_dir      <- "Data/Environment/"
-pa_path          <- "pa_combined.shp"
+rasters_dir      <- "./data/derived_data/"
+pa_path          <- "./data/derived_data/pa_combined.shp"
 
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
