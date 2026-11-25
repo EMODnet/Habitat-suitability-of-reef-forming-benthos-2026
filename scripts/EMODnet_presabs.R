@@ -387,6 +387,6 @@ pa_combined_sf <- st_as_sf(
 # Save
 st_write(
   pa_combined_sf,
-  "pa_combined.shp",
+  "./data/derived_data/pa_combined.shp",
   delete_dsn = TRUE
 )
