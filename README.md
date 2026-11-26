@@ -31,10 +31,6 @@ Bathymetry (2024) was extracted from EMODnet and used for the calculation of BPI
 
 Species distribution data were extracted from EMODnet (EMODnet_presabs.R) and saved as a point shapefile (Presence/Absence). OBIS records were added to account for missing data in the German EEZ.
 
-```
-{{data_wfs_request}}
-```
-
 ## Data product
 
 The updated product contains habitat suitability maps (generated with Random Forest) for Ostrea edulis and Modiolus modiolus in the central and southern North Sea, and for Sabellaria spinulosa and Lanice conchilega in the entire North Sea, English Channel and Irish and Celtic Seas.
