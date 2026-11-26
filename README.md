@@ -53,8 +53,11 @@ This product should be cited as:
 S. Mestdagh, and W. Stolte (2026). Habitat suitability for reef-forming macrobenthic species in the North Sea. Integrated EMODnet Biology data product. Deltares, Delft, the Netherlands.
 
 Available to download in:
+https://erddap.emodnet.eu/erddap/files/biology-9239xY_1d86_191d_f4de/habitat_suitability_reef_forming_species_north_sea_2026.nc
 
-{{link_download}}
+EMODnet Catalogue: https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000009239
+
+EMDOnet Geoviewer: https://emodnet.ec.europa.eu/geoviewer/?layers=6d617269-6e65-696e-666f-000000009239:1:1&basemap=ebwbl&active=17563&bounds=-5018890.533566924,3082466.815,7972931.689566923,11459766.29&filters=17563:aphiaid__(140658)--&projection=EPSG:3857
 
 ### Authors
 
